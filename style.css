@@ -1,0 +1,424 @@
+#logo svg {
+  width: 70px;
+  height: auto;
+  padding-left: 24px;
+  padding-top: 20px;
+}
+
+nav h3 {
+  font-size: 30px;
+  font-weight: lighter;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 25px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.rightsidenav {
+  float: right;
+  padding-top: 25px;
+  padding-right: 16px;
+}
+
+.rightsidenav ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+
+.Bannerrow {
+  background-image:none;
+  background-color: #A9A9A9;
+}
+
+.Banner img {
+  width: 100%;
+  height: auto;
+}
+
+.Banner {
+  padding: 32px 24px;
+}
+
+.BannerText {
+  padding-left: 20px;
+}
+
+.BannerText h1 {
+  font-size: 50px;
+  font-family: Helvetica;
+  color: black;
+  padding-bottom: 15px;
+  font-weight: bold;
+  padding-top: 220px;
+}
+
+.BannerText p {
+  font-family: Arial;
+  font-size: 30px;
+  color: black;
+  padding-bottom: 15px;
+}
+
+.BannerText h4 {
+  font-family: Arial;
+  border: 1px solid #696969;
+  background-color: #696969;
+  font-size: 20px;
+  color: white;
+  width: 440px;
+  text-align: center;
+  padding: 8px;
+}
+
+
+/*Second row*/
+.Second img {
+  width: 100%;
+  height: auto;
+  padding: 32px 24px;
+}
+
+.Second h1 {
+  font-size: 45px;
+  font-family: Helvetica;
+  color: black;
+  font-weight: bold;
+  padding-left: 24px;
+}
+
+.Second p {
+  font-size: 20px;
+  font-family: Arial;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.Second h5 {
+  font-family: Arial;
+  font-size: 15px;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+
+
+.Secondrightcol img {
+  width: 94%;
+  height: auto;
+}
+
+.Bannercontainer {
+  background-color: #D3D3D3;
+  padding: 32px 24px;
+
+}
+
+.Secondrightcol {
+  border: 1px solid #D3D3D3;
+}
+
+.Infoimage {
+  padding-top: 15px;
+}
+
+.outer {
+  margin: 16px 0;
+}
+
+.Secondtext h2 {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 70px;
+}
+
+.Secondtext h3 {
+  font-family: Helvetica;
+  font-size: 20px;
+  }
+
+#Guest {
+  background-color: #D3D3D3;
+  padding-bottom: 16px;
+}
+
+.Secondrow {
+  background-color: #f1f1f1;
+}
+
+
+/*Start Learning Section*/
+.Learncontainer {
+  background-color: #DfDfDf;
+  padding-right: 57px;
+  padding-left: 57px;
+  padding-bottom: 32px;
+}
+
+.Learn h1 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.Images {
+  padding-bottom: 32px;
+}
+
+.Images img {
+  height: auto;
+  width: 100%;
+}
+
+.section {
+  background-color: white;
+  padding-bottom: 32px;
+}
+/*
+.section h6 {
+  padding-bottom: 24px;
+  font-family: Verdana;
+  font-size: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+}*/
+
+.section p {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+.section h2 {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  font-size: 25px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+.Thesiscontainer {
+  background-color: #f1f1f1;
+}
+
+.Thesis {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.Thesis h1 {
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.video {
+  padding-left: 24px;
+}
+
+.Thesisrightcol img {
+  width: 94%;
+  height: auto;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#urban {
+  padding-bottom: 32px;
+}
+
+video {
+  /*padding-top: 15px;*/
+  height: 505px;
+  padding-left: 24px;
+}
+
+.Second h2 {
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.Thesiscontainer {
+  border-bottom: 1px solid black;
+}
+
+footer {
+    display: inline;
+    padding-left: 24px;
+}
+
+
+.rightalign {
+  float: right;
+}
+
+.mobilelogos svg {
+  display: none;
+}
+
+.Bannercontainer1, .Secondcontainer1, .Learncontainer1, .Thesiscontainer1 {
+  display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+  .mobilelogos svg {
+    display: inline;
+    width: 40px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    vertical-align: top;
+    margin-right: 60px;
+  }
+
+  #logo svg {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 60px;
+    margin-right: 60px;
+    margin-left: 30px;
+  }
+
+  .rightsidenav, nav h3, .Bannercontainer, .Secondcontainer, .Learncontainer, .Thesiscontainer, .rightalign {
+    display: none;
+  }
+
+  .Banner img {
+    width: 470px;
+    height: auto;
+  }
+
+  .Bannercontainer, .Banner, .BannerText {
+    padding: 0;
+  }
+
+  .BannerText h1 {
+    font-size: 20px;
+  }
+
+  .Bannercontainer1, .Secondcontainer1, .Learncontainer1, .Thesiscontainer1 {
+    display: block;
+  }
+
+  .Banner1 img {
+    width: 480px;
+    height: auto;
+  }
+  .BannerText {
+    background-color: #A9A9A9;
+    width: 480px;
+    padding-bottom: 32px;
+  }
+
+  .BannerText h1 {
+    font-size: 40px;
+    font-family: Helvetica;
+    color: black;
+    font-weight: bold;
+    padding: 32px 16px;
+  }
+
+  .BannerText p {
+    font-family: Helvetica;
+    font-size: 30px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+  }
+
+  .BannerText h4 {
+    margin-left: 16px;
+  }
+
+  .Secondcontainer1 {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+
+  .Infoimage1 img {
+    width: 450px;
+    height: auto;
+  }
+
+  .Infoimage1 h2, .Infoimage1 h3, .Infoimage1 a {
+    padding-left: 16px;
+    font-family: Helvetica;
+  }
+
+  .Infoimage1 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+  }
+
+  .Infoimage1 h3 {
+    font-size: 20px;
+  }
+
+  .Infoimage1 {
+    background-color: #f1f1f1
+  }
+
+  .Learncontainer1  {
+    border-top: 1px solid #DfDfDf;
+    border-bottom: 1px solid #DfDfDf;
+    background-color: #f1f1f1;
+    padding-top: 32px;
+  }
+
+  .Learncontainer1 h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    padding-bottom: 16px;
+  }
+
+  .Learn1 h2 {
+    text-align: left;
+    border: 1px solid #DfDfDf;
+    background-color: #DfDfDf;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    font-family: Helvetica;
+    font-size: 25px;
+  }
+
+  .Thesiscontainer1 {
+    background-color: #f1f1f1;
+  }
+
+  .Thesis1 h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 32px;
+  }
+
+  video {
+    height: 300px;
+    padding: none;
+    margin-bottom: 40px;
+  }
+
+  footer {
+    margin-left: 16px;
+  }
+}
